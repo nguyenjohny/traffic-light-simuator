@@ -1,0 +1,13 @@
+*.orig
+*.orig.*
+*.chg.*
+*.rej
+*.conflict*
+
+out/
+target/
+.idea/
+*.iml
+db/scripts
+web
+xml/

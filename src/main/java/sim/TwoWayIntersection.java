@@ -100,7 +100,7 @@ public class TwoWayIntersection {
     public static void main(String[] args) throws InterruptedException {
         TwoWayIntersection intersection =  new TwoWayIntersection(1, 1);
         final long switchMs = 5 * 60 * 1000; // 5 mins
-        final long stopDelayMs = 30 * 1000; // 5 mins
+        final long stopDelayMs = 30 * 1000; // 30 secs
         intersection.start(switchMs, stopDelayMs);
 
         Thread.currentThread().join();
